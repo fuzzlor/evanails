@@ -60,12 +60,12 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Logo & Subtitle */}
         <button
           onClick={() => handleNavClick('overview')}
-          className="flex items-center gap-3 text-left group focus:outline-none"
+          className="flex items-center gap-3 text-left group focus:outline-none cursor-pointer"
         >
           <img
             src={STUDIO_INFO.headerLogo}
             alt="EVA Nail Studio Logo"
-            className="h-14 sm:h-16 w-auto max-h-[64px] object-contain py-1 drop-shadow-sm group-hover:opacity-95 transition-opacity"
+            className="h-12 sm:h-14 w-auto max-h-[56px] object-contain mix-blend-multiply contrast-[1.06] brightness-[1.02] group-hover:opacity-90 transition-opacity"
           />
           <div className="hidden sm:flex flex-col text-left">
             <span className="text-[10px] tracking-[0.25em] text-[#847376] uppercase font-semibold leading-tight">

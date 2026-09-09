@@ -204,8 +204,11 @@ export default function App() {
       {/* Footer */}
       <Footer currentLang={currentLang} onNavigate={handleNavigate} />
 
-      {/* Floating WhatsApp Concierge button */}
-      <FloatingConcierge />
+      {/* Floating Concierge & Online Chat Widget */}
+      <FloatingConcierge
+        currentLang={currentLang}
+        onOpenBooking={(serviceName, date, time) => handleOpenBooking(serviceName, date, time)}
+      />
 
       {/* Online Booking Dialog Modal */}
       <BookingModal

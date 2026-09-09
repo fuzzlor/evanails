@@ -20,9 +20,9 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate }) => {
           <div className="lg:col-span-5 flex flex-col items-start">
             <div className="flex items-center gap-3 mb-4">
               <img
-                src={STUDIO_INFO.footerLogo}
-                alt="EVA Nail Studio Official Logo"
-                className="h-14 w-auto object-contain rounded-xl drop-shadow-sm"
+                src={STUDIO_INFO.headerLogo}
+                alt="EVA Nail Studio Logo"
+                className="h-12 sm:h-14 w-auto max-h-[56px] object-contain mix-blend-multiply contrast-[1.06] brightness-[1.02]"
               />
               <span className="font-serif text-[24px] text-[#241913] tracking-tight font-normal">
                 {STUDIO_INFO.name}
