@@ -1,0 +1,6 @@
+{
+  "name": "EVA Nail Studio",
+  "description": "EVA Soft Contour Atelier & Nail Studio in Nha Trang - Japanese gel artistry, restorative spa treatments, and mindful architectural salon experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

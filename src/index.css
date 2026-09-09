@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "EB Garamond", Georgia, serif;
+  --font-sans: "Manrope", system-ui, -apple-system, sans-serif;
+  --font-display: "EB Garamond", Georgia, serif;
+
+  --color-surface: #fff8f5;
+  --color-surface-dim: #ebd6cb;
+  --color-surface-bright: #fff8f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #fff1ea;
+  --color-surface-container: #ffeadf;
+  --color-surface-container-high: #fae4d9;
+  --color-surface-container-highest: #f4ded3;
+  --color-on-surface: #241913;
+  --color-on-surface-variant: #514346;
+  --color-outline: #847376;
+  --color-outline-variant: #d6c2c5;
+  --color-primary: #794150;
+  --color-primary-container: #955868;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #ffe5e9;
+  --color-secondary: #6b5c45;
+  --color-secondary-container: #f1ddbf;
+  --color-on-secondary-container: #6f6149;
+  --color-tertiary: #50543d;
+  --color-tertiary-container: #686c53;
+  --color-secondary-fixed: #f4e0c2;
+  --color-tertiary-fixed: #e1e5c7;
+  --color-primary-fixed: #ffd9e0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+}
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
