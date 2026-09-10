@@ -15,6 +15,7 @@ import { Footer } from './components/Footer';
 import { BookingModal } from './components/BookingModal';
 import { MyBookingsModal } from './components/MyBookingsModal';
 import { FloatingConcierge } from './components/FloatingConcierge';
+import { LiveBookingNotification } from './components/LiveBookingNotification';
 import { translations } from './data/translations';
 
 const STORAGE_KEY = 'eva_nail_studio_bookings';
@@ -208,6 +209,12 @@ export default function App() {
       <FloatingConcierge
         currentLang={currentLang}
         onOpenBooking={(serviceName, date, time) => handleOpenBooking(serviceName, date, time)}
+      />
+
+      {/* Live Social Proof Booking Notification Toast */}
+      <LiveBookingNotification
+        currentLang={currentLang}
+        onOpenBooking={(serviceName) => handleOpenBooking(serviceName)}
       />
 
       {/* Online Booking Dialog Modal */}

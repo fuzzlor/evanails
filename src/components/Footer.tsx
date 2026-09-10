@@ -18,14 +18,15 @@ export const Footer: React.FC<FooterProps> = ({ currentLang, onNavigate }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-12 border-b border-[#ebd6cb]/60">
           {/* Col 1: Brand */}
           <div className="lg:col-span-5 flex flex-col items-start">
-            <div className="flex items-center gap-3 mb-4">
-              <img
-                src={STUDIO_INFO.headerLogo}
-                alt="EVA Nail Studio Logo"
-                className="h-12 sm:h-14 w-auto max-h-[56px] object-contain mix-blend-multiply contrast-[1.06] brightness-[1.02]"
-              />
-              <span className="font-serif text-[24px] text-[#241913] tracking-tight font-normal">
-                {STUDIO_INFO.name}
+            <div className="flex flex-col text-left justify-center mb-5">
+              <span className="font-serif text-[26px] sm:text-[28px] text-[#241913] tracking-tight font-medium leading-none mb-1.5">
+                EVA{' '}
+                <span className="font-sans text-[13px] sm:text-[14px] uppercase tracking-[0.2em] text-[#794150] font-bold">
+                  Nail Studio
+                </span>
+              </span>
+              <span className="text-[10.5px] sm:text-[11.5px] tracking-[0.22em] text-[#847376] uppercase font-medium leading-none">
+                Nha Trang
               </span>
             </div>
 

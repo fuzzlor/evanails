@@ -384,13 +384,9 @@ export const FloatingConcierge: React.FC<FloatingConciergeProps> = ({
           {/* Header */}
           <div className="px-5 py-4 bg-[#955868] text-white flex items-center justify-between shrink-0 shadow-sm">
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-xs overflow-hidden p-1">
-                <img
-                  src={STUDIO_INFO.headerLogo}
-                  alt="EVA Nail Studio"
-                  className="w-full h-full object-contain mix-blend-multiply"
-                />
-                <span className="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-[#2e7d32] ring-2 ring-white" />
+              <div className="relative w-10 h-10 rounded-full bg-white/20 backdrop-blur-xs flex items-center justify-center shadow-xs border border-white/30 shrink-0">
+                <Sparkles className="w-5 h-5 text-white" />
+                <span className="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-[#4caf50] ring-2 ring-[#955868]" />
               </div>
               <div className="flex flex-col">
                 <h3 className="text-[15px] font-bold tracking-tight leading-snug">

@@ -12,10 +12,8 @@ export const STUDIO_INFO = {
   instagramUrl: 'https://instagram.com',
   rating: '5.0',
   reviewCount: '320+',
-  headerLogo:
-    'https://lh3.googleusercontent.com/aida/AEtjO1WsXxMLzTZXwNTshl5exDTmvhoLvR6jRH815zA_txLhoofyrW7_-8PkUuGt7v3SEjVaGR5cGz5_XQgShex0745hVJzMBevPAgafcL9C46VVKiECo1U3-mcrad9MyQV32OCINZRjVPRCSd7kAbFMgxqlgFCcVElrDYkteZD4EIF7pWxDna-rYSDfDE2rhgotTaWC2jdZglRD2Xj8yEWz8xNR7QcXMx7nIU_rB8pnYYgAOqGLC6mNF-HAF_Rg',
-  footerLogo:
-    'https://lh3.googleusercontent.com/aida/AEtjO1WsXxMLzTZXwNTshl5exDTmvhoLvR6jRH815zA_txLhoofyrW7_-8PkUuGt7v3SEjVaGR5cGz5_XQgShex0745hVJzMBevPAgafcL9C46VVKiECo1U3-mcrad9MyQV32OCINZRjVPRCSd7kAbFMgxqlgFCcVElrDYkteZD4EIF7pWxDna-rYSDfDE2rhgotTaWC2jdZglRD2Xj8yEWz8xNR7QcXMx7nIU_rB8pnYYgAOqGLC6mNF-HAF_Rg',
+  headerLogo: '',
+  footerLogo: '',
   heroInteriorImg:
     'https://lh3.googleusercontent.com/aida-public/AB6AXuAfJkhhxg52ung1gbpIleys22nqt6uTNCuPWDlONnotfZMR_mzfxgah6UMqsmySJadqbNE5bfqKMh1TUdDUt_cQ730Y84DRzBFL2UgUGlrPO8Tu1JKoqK9Kro7ZE2aEzhxomNANdBCJt6LIZYUq64c4jSRJ6wgkZTqFvubTL5m3_zvotF95anEQ-WTJk5COkzys8Rxvazj-OsS-LYwNiwWmrhiJOq76KRSdGEzS2VY0rWmO3k-tU-_-c9r5G0BIr4Uo55A',
 };

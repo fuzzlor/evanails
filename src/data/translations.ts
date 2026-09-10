@@ -525,7 +525,7 @@ export const translations: Record<Language, Translations> = {
     },
     schedule: {
       eyebrow: 'Календарь загрузки',
-      title: 'Тепловая карта занятости студии',
+      title: 'График занятости студии',
       subtext:
         'Оцените плотность записи мастеров на ближайшие 3 недели и выберите максимально свободное и комфортное время для посещения.',
       weekCurrent: 'Текущая неделя',
@@ -931,7 +931,7 @@ export const translations: Record<Language, Translations> = {
     },
     schedule: {
       eyebrow: 'Live Availability',
-      title: 'Studio Occupancy Heatmap',
+      title: 'Studio Occupancy Schedule',
       subtext:
         'Explore booking density across the upcoming 3 weeks and discover the calmest, most relaxing time slots for your pampering visit.',
       weekCurrent: 'Current Week',
@@ -1335,7 +1335,7 @@ export const translations: Record<Language, Translations> = {
     },
     schedule: {
       eyebrow: 'Lịch biểu trực tiếp',
-      title: 'Bản đồ mật độ lịch hẹn của tiệm',
+      title: 'Lịch biểu kín chỗ của studio',
       subtext:
         'Xem mức độ kín lịch của studio trong 3 tuần tới và chủ động chọn khung giờ thảnh thơi, thư giãn trọn vẹn nhất.',
       weekCurrent: 'Tuần này',
@@ -1727,7 +1727,7 @@ export const translations: Record<Language, Translations> = {
     },
     schedule: {
       eyebrow: '실시간 예약 현황',
-      title: '살롱 예약 현황 히트맵',
+      title: '스튜디오 예약 현황 일정',
       subtext:
         '향후 3주간의 살롱 예약 현황을 한눈에 파악하고 가장 여유롭고 조용한 시간대를 직접 선택해 예약하세요.',
       weekCurrent: '이번 주',

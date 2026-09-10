@@ -22,7 +22,7 @@ export const Hero: React.FC<HeroProps> = ({
       <div className="max-w-[1240px] mx-auto px-4 lg:px-8">
         {/* Top Tagline & Editorial Preheader */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 mb-8">
-          <div className="flex items-center gap-2.5">
+          <div className="hidden sm:flex items-center gap-2.5">
             <span className="w-2.5 h-2.5 rounded-full bg-[#686c53] animate-pulse"></span>
             <span className="text-[12px] uppercase font-bold tracking-[0.22em] text-[#6b5c45]">
               {t.hero.tagline}
@@ -87,23 +87,23 @@ export const Hero: React.FC<HeroProps> = ({
               </button>
             </div>
 
-            {/* Studio Trust Micro Indicators - Symmetrical & Balanced Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-3 w-full sm:max-w-xl pt-1">
-              <div className="flex items-center justify-center sm:justify-start gap-2.5 px-4 py-2.5 rounded-2xl sm:rounded-full bg-white/85 border border-[#ebd6cb] text-[#3d2b24] shadow-[0_2px_8px_rgba(81,67,59,0.03)] backdrop-blur-xs">
-                <CheckCircle2 className="w-4 h-4 text-[#794150] shrink-0" />
-                <span className="text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">
+            {/* Studio Trust Micro Indicators - Adaptive Flexible Wrap (Prevents text overlap on all viewports & languages) */}
+            <div className="flex flex-wrap items-center gap-2 sm:gap-2.5 w-full max-w-xl pt-1">
+              <div className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/90 border border-[#ebd6cb] text-[#3d2b24] shadow-[0_2px_8px_rgba(81,67,59,0.03)] backdrop-blur-xs max-w-full">
+                <CheckCircle2 className="w-3.5 h-3.5 text-[#794150] shrink-0" />
+                <span className="text-[10.5px] sm:text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">
                   {t.hero.badge10Free}
                 </span>
               </div>
-              <div className="flex items-center justify-center sm:justify-start gap-2.5 px-4 py-2.5 rounded-2xl sm:rounded-full bg-white/85 border border-[#ebd6cb] text-[#3d2b24] shadow-[0_2px_8px_rgba(81,67,59,0.03)] backdrop-blur-xs">
-                <ShieldCheck className="w-4 h-4 text-[#794150] shrink-0" />
-                <span className="text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">
+              <div className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/90 border border-[#ebd6cb] text-[#3d2b24] shadow-[0_2px_8px_rgba(81,67,59,0.03)] backdrop-blur-xs max-w-full">
+                <ShieldCheck className="w-3.5 h-3.5 text-[#794150] shrink-0" />
+                <span className="text-[10.5px] sm:text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">
                   {t.hero.badgeAutoclave}
                 </span>
               </div>
-              <div className="flex items-center justify-center sm:justify-start gap-2.5 px-4 py-2.5 rounded-2xl sm:rounded-full bg-white/85 border border-[#ebd6cb] text-[#3d2b24] shadow-[0_2px_8px_rgba(81,67,59,0.03)] backdrop-blur-xs">
-                <Sparkles className="w-4 h-4 text-[#794150] shrink-0" />
-                <span className="text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">
+              <div className="inline-flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/90 border border-[#ebd6cb] text-[#3d2b24] shadow-[0_2px_8px_rgba(81,67,59,0.03)] backdrop-blur-xs max-w-full">
+                <Sparkles className="w-3.5 h-3.5 text-[#794150] shrink-0" />
+                <span className="text-[10.5px] sm:text-[11px] font-bold uppercase tracking-wider whitespace-nowrap">
                   {t.hero.badgeOasis}
                 </span>
               </div>

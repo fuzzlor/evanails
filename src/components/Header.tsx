@@ -57,22 +57,20 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="fixed top-0 left-0 w-full z-40 bg-[#fff8f5]/90 backdrop-blur-xl border-b border-[#ebd6cb]/50 shadow-[0_4px_24px_-6px_rgba(81,67,59,0.06)] transition-all duration-300">
       <div className="h-20 max-w-[1240px] mx-auto px-4 lg:px-8 flex items-center justify-between gap-4">
-        {/* Logo & Subtitle */}
+        {/* Brand Title & Subtitle */}
         <button
           onClick={() => handleNavClick('overview')}
-          className="flex items-center gap-3 text-left group focus:outline-none cursor-pointer"
+          className="flex flex-col text-left justify-center group focus:outline-none cursor-pointer shrink-0 py-1"
         >
-          <img
-            src={STUDIO_INFO.headerLogo}
-            alt="EVA Nail Studio Logo"
-            className="h-12 sm:h-14 w-auto max-h-[56px] object-contain mix-blend-multiply contrast-[1.06] brightness-[1.02] group-hover:opacity-90 transition-opacity"
-          />
-          <div className="hidden sm:flex flex-col text-left">
-            <span className="text-[10px] tracking-[0.25em] text-[#847376] uppercase font-semibold leading-tight">
-              Nha Trang
+          <span className="font-serif text-[22px] sm:text-[24px] text-[#241913] tracking-tight font-medium leading-none mb-1 group-hover:text-[#794150] transition-colors">
+            EVA{' '}
+            <span className="font-sans text-[11.5px] sm:text-[12.5px] uppercase tracking-[0.2em] text-[#794150] font-bold">
+              Nail Studio
             </span>
-            <span className="text-[12px] text-[#794150] font-serif italic">Soft Contour Atelier</span>
-          </div>
+          </span>
+          <span className="text-[10px] sm:text-[11px] tracking-[0.22em] text-[#847376] uppercase font-medium leading-none">
+            Nha Trang
+          </span>
         </button>
 
         {/* Desktop Navigation */}
